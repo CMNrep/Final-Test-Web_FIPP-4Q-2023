@@ -1,0 +1,160 @@
+*,::before,::after {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(135deg, #004aad 0%, #ababab 100%);
+    background-attachment: fixed;
+    min-height: 100dvh;
+    display: flex;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #112;
+    align-items: center;
+    align-self: flex-start;
+    padding: 0 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 0;
+    margin: 0;
+}
+
+nav li a {
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li+li {
+    border-left: 1px solid #a6a6a6;
+}
+
+header img {
+    max-height: 40px;
+}
+
+/*main*/
+
+#index-main{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#index-main .product{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 3% 0 0;
+    width: 25%;
+
+}
+
+#index-main .product-title h1{
+    font-weight: bold;
+    margin: 0 1% 5% 0;
+}
+
+#index-main .product .button-list{
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: flex-end;
+    height: 40px;
+    margin-top: 50%;
+}
+
+#index-main .button-buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+#index-main .button-buy a{
+    font-weight: bold;
+
+}
+
+#index-main a{
+    text-decoration: none;
+    color: #000;
+}
+
+#index-main .button-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: rgba(224, 228, 230, 0.4);
+    width: 50%;
+    height: 100%;
+}
+
+
+#index-main .product-img{
+    height: 30%;
+    width: 30%;
+}
+
+#index-main .product-img img{
+    height: 100%;
+    width: 100%;    
+}
+
+/*footer*/
+
+footer{
+    color: #fff;
+    background-color: #112;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    width: 100%;
+    bottom: 0;
+    height: fit-content;
+    flex-wrap: wrap;
+    font-size: smaller;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+footer ul, footer .adress, footer .contact{
+    margin: 0;
+    padding: 1% 0 0 0;
+}
+
+footer .social-midia{
+    padding: 1% 0 0.8% 0;
+}

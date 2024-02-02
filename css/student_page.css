@@ -1,0 +1,148 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex:1;
+}
+
+form{
+    background-color: #fff;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 15px;
+    border: 1px;
+    border-style: solid;
+    border-color: #000;
+    flex-wrap: wrap;
+} 
+
+form h2{
+    width: fit-content;
+    align-self: center;
+}
+
+form img{
+    transition: 150ms;
+    width: 14rem;
+    margin: 2%;
+    border-radius: 15px;
+    justify-self: flex-end;
+}
+
+
+form img:hover{
+    opacity: 70%;
+    transition: 150ms;
+}
+
+form .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+fieldset{
+    border: none;
+    padding: 10px;
+    height: fit-content;
+}
+
+form .conclusion-buttons{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-bottom: 2%;
+}
+
+form .conclusion-buttons a{
+    display: flex;
+    order: -1;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50px;
+    background-color: rgb(185, 0, 31);
+    width: 13rem;
+    height: fit-content;
+    margin: 5px 2% 0px 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    transition: 100ms;
+    border: 1px;
+}
+
+form .conclusion-buttons a:hover{
+    background-color: rgba(181, 0, 0, 0.626);
+    border: 1px;
+    border-style: solid;
+}
+
+.register-button{
+    display: flex;
+    order: 1;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 210, 0.112);
+    width: 13rem;
+    height: fit-content;
+    margin: 5px 2% 0px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    transition: 100ms;
+}
+
+.register-button:hover{
+    opacity: 80%;
+    transition: 100ms;
+    background-color: rgba(148, 144, 144, 0.338);
+}
+
+fieldset input, fieldset select{
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    margin-bottom: 5%;
+    height: 1.5rem;
+    width: 10rem;
+}
+
+.pass-button{
+    display: flex;
+    order: 0;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 246, 0.838);
+    width: 13rem;
+    height: fit-content;
+    margin: 5px 2% 0px 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    transition: 100ms;
+}
+
+.pass-button:hover{
+    background-color: rgb(53, 53, 255);
+}
+
+input[type="text"]:hover, select:hover, input[type="number"]:hover{
+    border: #000;
+    background-color: rgba(238, 238, 238, 0.635);
+    border: 1px;
+    border-style: solid;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/student_page.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Merriweather:ital,wght@0,700;0,900;1,700;1,900&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Ads Creater</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="../img/logo2.png" alt="logo" class="img"></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="product_viewer.html">Prudutos</a></li>
+                <li><a href="student_page.html">Estudante</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="nothing to show" method="post">
+            <h2>Perfil</h2>
+            <div class="container">
+                <img src="../img/perfil-image-sample.jpg" alt="perfil_sample" onclick="(alert('Erro, não é possivel mudar ainda'))">
+                <fieldset>
+                    <label for="name">Nome</label><br>
+                    <input type="text" id="name" placeholder="Cristian M. N."><br>
+                    <label for="birth">Aniversário</label><br>
+                    <input type="date" id="birth" placeholder="29/04/2004"><br>
+                    <label for="e-mail">E-mail</label><br>
+                    <input type="email" id="e-mail" placeholder="cristian.n@h.com">
+                </fieldset>
+                <fieldset>
+                    <label for="user-name">Nome de usuário</label><br>
+                    <input type="text" id="user-name" placeholder="cristian"><br>
+                    <label for="work-gender">Seu genêro</label><br>
+                    <select id="work-gender">
+                        <option disabled selected>Selecione</option>
+                        <option value="">ação</option>
+                        <option value="">database-error</option>
+                    </select><br>
+                    <label for="original-work-type">Obra favorita</label><br>
+                    <select id="original-work-type"><br>
+                        <option disabled>Selecione</option>
+                        <option value=""selected>NieR: Automata</option>
+                        <option value="">database-error</option>
+                    </select>
+                </fieldset>    
+                <fieldset>
+                    <label for="original-work-type">Tema favorito</label><br>
+                    <select id="original-work-type"><br>
+                        <option disabled>Selecione</option>
+                        <option value=""selected>NieR: Automata</option>
+                        <option value="">database-error</option>
+                    </select><br>
+                    <label for="original-work-type">Autor(a) favorito(a)</label><br>
+                    <select id="original-work-type"><br>
+                        <option disabled>Selecione</option>
+                        <option value=""selected>NieR: Automata</option>
+                        <option value="">database-error</option>
+                    </select><br>
+                    <label for="product-material">Genêro favorito de obra</label><br>
+                    <select id="product-material">
+                        <option disabled selected>Selecione</option>
+                        <option value="">Plastico ABS</option>
+                        <option value="">database-error</option>
+                    </select><br>
+                </fieldset>
+            </div>
+            <div class="conclusion-buttons">
+                <input class="pass-button" type="button" value="Alterar senha" onclick="alert('Error 404! Script not found')">
+                <a href="product_viewer.html" class="cancel-button">Cancelar</a>
+                <input class="register-button" type="reset" value="Alterar" onclick="alert('Alterado com sucesso!')">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <p>&#169 2023 All Rights Reserved AAGStore Ltda.</p>
+            <div class="social-midia">
+                <a href="#"><img src="../img/social_media_icons/instagram_icon.png" alt="instagram"></a>
+                <a href="#"><img src="../img/social_media_icons/facebook_icon.png" alt="facebook"></a>
+                <a href="#"><img src="../img/social_media_icons/X_icon.png" alt="X"></a>
+                <a href="https://www.linkedin.com/in/cristian-negrizolli-12a98a240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="../img/social_media_icons/linkedin_icon.png" alt="linkedin"></a>
+            </div>
+        </ul>   
+        <div class="adress">
+            R. José Bongiovani, 700 - Cidade Universitária, Pres. Prudente - SP, 19050-920
+        </div>
+        <div class="contact">
+            aagstore@hotmail.com    
+        </div>
+    </footer>
+</body>
+</html>
